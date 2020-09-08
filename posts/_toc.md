@@ -1,5 +1,5 @@
 [Home](/)
-[Sample Blog Post](/sample-blog-post)
+[Dotnet Templating](/dotnet-template)
 
 <br><br>
 
