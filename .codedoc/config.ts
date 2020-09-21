@@ -34,7 +34,7 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'coding-blog-boilerplate',         // --> change this to your github repo
+      repo: 'coding-blog',         // --> change this to your github repo
       user: 'nathans1309'         // --> change this to your github username
     }
   }
