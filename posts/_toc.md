@@ -1,5 +1,4 @@
 [Home](/)
-[Dotnet Templating](/dotnet-template)
 
 <br><br>
 

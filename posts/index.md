@@ -17,11 +17,13 @@ Thanks for visiting my blog. I tend to write about new things that I have learne
 
 # Latest Posts
 
+> :ArticleCard src=/watchout_for/csharp_nulls
+
 > :ArticleCard src=/dotnet-template
 
 
 <br><br>
 
-> :Author src=github
+> :Author name=Nathan Sweeney, avatar=img/nathan_headshot.jpg, date=2020-09-18
 
 > :ToCPrevNext

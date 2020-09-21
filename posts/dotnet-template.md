@@ -1,4 +1,4 @@
-> :Hero src=https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop,
+> :Hero src=img/thumbnails/dotnetCore.png,
 >       mode=light,
 >       target=desktop,
 >       leak=156px
@@ -22,7 +22,7 @@
 >
 > Create a template for dotnet
 
-> :Author src=github
+> :Author name=Nathan Sweeney, avatar=img/nathan_headshot.jpg, date=2020-09-18
 
 <br>
 
