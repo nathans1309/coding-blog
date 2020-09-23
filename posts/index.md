@@ -1,11 +1,3 @@
-> :DarkLight
-> > :InLight
-> >
-> > ![banner](/img/cb-banner.svg)
->
-> > :InDark
-> >
-> > ![banner](/img/cb-banner-dark.svg)
 
 > :Title
 >
@@ -17,7 +9,7 @@ Thanks for visiting my blog. I tend to write about new things that I have learne
 
 # Latest Posts
 
-> :ArticleCard src=/watchout_for/csharp_nulls
+> :ArticleCard src=/csharp_nulls
 
 > :ArticleCard src=/dotnet-template
 

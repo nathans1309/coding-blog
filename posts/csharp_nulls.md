@@ -1,20 +1,12 @@
-> :Hero src=img/thumbnails/cracked_foundation.jpg,
->       mode=light,
->       target=desktop,
->       leak=156px
-
-> :Hero src=img/thumbnails/cracked_foundation.jpg,
->       mode=dark,
->       target=desktop,
->       leak=156px
-
 > :Title lead=an unknown crack in the foundation of your code
 >
 > NULL
 
+
 > :Author name=Nathan Sweeney, 
 >         avatar=img/nathan_headshot.jpg, 
 >         date=2020-09-18
+
 
 My number one rule during a code review is to find, expose and exterminate run-time errors. There is one who is well known as the best deceiver, convincing your compiler that 'there is nothing to see here'.  It comes in different forms, but best known as `Null Reference Exception`. I have gotten pretty good at whack-a-mole with null reference exceptions over the years but I'm occasionally surprised by the new and ingenious ways our opponent exploits. *In this article I'll be sharing what I've learned about handling nulls at the edge of my application and how to wrap them in a type that converts runtime errors into compile time errors.*
 
