@@ -74,7 +74,7 @@ public Maybe<Car> BuyACar(int cost){
 ```
 
 ```csharp
-BuyACar(15000);
+BuyACar(15000)
   .Match(car => car.Start(), () => Log.Warning("No car found"));
 ```
 
@@ -107,7 +107,7 @@ public class Maybe<T> {
  If the caller wants to Map the value to something else, the type system will force the map to happen inside of a null check.
  Also, since we didn't actually get the value out, we don't need to handle the null case. This is a perfect way to build the pipeline.
 ```csharp
-BuyACar(15000);
+BuyACar(15000)
   .Map(car => car.PutOnNewWheels())
   .Match(car => car.Start(), () => Log.Warning("No car found"));
 ```
