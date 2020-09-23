@@ -4,7 +4,7 @@
 
 
 > :Author name=Nathan Sweeney, 
->         avatar=img/nathan_headshot.jpg, 
+>         avatar=../img/nathan_headshot.jpg, 
 >         date=2020-09-18
 
 
