@@ -19,7 +19,7 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
 
           header={<Header {...config}/>}
           footer={<Footer {...config}/>}
-          toc={<ToC>{toc}</ToC>}>
+          toc={<ToC default="open">{toc}</ToC>}>
       {_content}
       <ContentNav content={_content}/>
     </Page>

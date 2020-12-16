@@ -1,22 +1,12 @@
-> :Hero src=img/thumbnails/dotnetCore.png,
+> :Hero src=img/thumbnails/dotnetCore.jpg,
 >       mode=light,
 >       target=desktop,
 >       leak=156px
 
-> :Hero src=https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&h=600&fit=crop,
->       mode=light,
->       target=mobile,
->       leak=96px
-
-> :Hero src=https://images.unsplash.com/photo-1508780709619-79562169bc64?w=1900&h=600&fit=crop,
+> :Hero src=:Hero src=img/thumbnails/dotnetCore.jpg,
 >       mode=dark,
 >       target=desktop,
 >       leak=156px
-
-> :Hero src=https://images.unsplash.com/photo-1508780709619-79562169bc64?w=1200&h=600&fit=crop,
->       mode=dark,
->       target=mobile,
->       leak=96px
 
 > :Title shadow=0 0 8px black, color=white
 >
@@ -87,15 +77,3 @@ Now we can publish this template by using `dotnet pack -o artifacts` (I'm using 
 The template can then be installed using the absolute path `dotnet new -i C:/code/..../artifacts/Templates.1.0.0.nupkg`
 After installing, you should see your new template in the list.
 To uninstall, first type `dotnet new -u`. Find your template (it should be the last one). Copy the uninstall command, paste and hit enter.
-
-
----
-
-> :DarkLight
-> > :InDark
-> >
-> > _Hero image by [Kaitlyn Baker](https://unsplash.com/@kaitlynbaker) from [Unsplash](https://unsplash.com)_
->
-> > :InLight
-> >
-> > _Hero image by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters) from [Unsplash](https://unsplash.com)_

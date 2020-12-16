@@ -22,14 +22,17 @@ export const config = /*#__PURE__*/configuration({
     title: {
       base: 'Nathan Sweeney\'s Blog'         // --> change this to change your blog's title
     },
-    favicon: '/favicon.ico'
+    favicon: '/favicon.ico',
+    meta: {
+      keywords: ['software', 'development', 'programming', 'Nathan', 'Sweeney'],
+    },
   },
   plugins: [
     codingBlog({
       assets: [
         'img',
         'favicon.ico',
-      ]
+      ],
     })
   ],
   misc: {

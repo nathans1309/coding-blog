@@ -9,7 +9,11 @@ Thanks for visiting my blog. I tend to write about new things that I have learne
 
 # Latest Posts
 
+> :ArticleCard src=/2020-12-15_MicrosoftGraph
+
 > :ArticleCard src=/csharp_nulls
+
+> :ArticleCard src=/watchout_for/csharp_using
 
 > :ArticleCard src=/dotnet-template
 

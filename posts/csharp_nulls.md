@@ -1,12 +1,22 @@
-> :Title lead=an unknown crack in the foundation of your code
+> :Hero src=img/thumbnails/cracked_foundation.jpg,
+>       mode=light,
+>       target=desktop
+
+> :Hero src=img/thumbnails/cracked_foundation.jpg,
+>       mode=dark,
+>       target=desktop
+
+> :Title
 >
 > NULL
-
+> an unknown crack in the foundation of your code
 
 > :Author name=Nathan Sweeney, 
 >         avatar=img/nathan_headshot.jpg, 
 >         date=2020-09-18
 
+- my concerns about null
+- how to protect your application from runtime exceptions due to null
 
 My number one rule during a code review is to find, expose and exterminate run-time errors. There is one who is well known as the best deceiver, convincing your compiler that 'there is nothing to see here'.  It comes in different forms, but best known as `Null Reference Exception`. I have gotten pretty good at whack-a-mole with null reference exceptions over the years but I'm occasionally surprised by the new and ingenious ways our opponent exploits. *In this article I'll be sharing what I've learned about handling nulls at the edge of my application and how to wrap them in a type that converts runtime errors into compile time errors.*
 
@@ -45,7 +55,7 @@ This is acceptable code however I still feel uneasy that I'm relying on another 
 # What to watch for
 In C#, theoretically any reference type can possibly be null and we should pay extra attention to code that interacts with external sources such as Database interactions, IO streams and Controller endpoints. These interactions are known as [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) which make our code harder to maintain, and harder to test. 
 
-# How to handle nulls correctly
+# How to be better about handling nulls
 The bad news is that nulls will exist, but the good news is that we can get better and handling them. The best way to deal with a null is to wrap it into a type that forces calling code to handle it appropriately. If something is maybe null, then calling code should be forced to handle both a possible value or a possible null. Here is the first pass at a Maybe class.
 
 ```csharp
